@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin:5px;
+       background-color:lightgoldenrodyellow;
+    }
+    
+
+h1{
+   text-align: center;}
+p{
+    text-align:center;}
+.container{
+    display: flex;}
+h4{
+    text-align: center;}
+.two {
+    border-radius: 50%;
+    padding:50px;
+    padding-left: 15px;}
+.three
+{
+    margin:10px;
+    padding-left: 80px;
+    justify-content:space-around;
+}
+
+@media (max-width: 720px) 
+{
+        .container {   
+          flex-direction: column;
+          width:100%;
+        }
+.new{   
+    flex-direction: column;
+    width:100%;
+  }
+    }
